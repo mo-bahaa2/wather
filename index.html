@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>weather</title>
+</head>
+<body class="">
+    <nav class="navbar navbar-expand-lg py-5">
+        <div class="container w-75">
+          <a class="navbar-brand" href="#">
+            <div class="d-flex">
+                <div><img src="./img/logo@2x.png" alt="logo weather" class="img-width me-3"></div>
+                <div class="text_logo">
+                    <h1 class=" h6 m-0 fw-bolder">Weather</h1>
+                    <small class="">tagline goes here</small>
+                </div>
+            </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item pe-3 current">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class=" nav-item pe-3">
+                <a class="nav-link  text-capitalize" aria-current="page" href="#">news</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link  text-capitalize" aria-current="page" href="#">live cameras</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link  text-capitalize" aria-current="page" href="#">photos</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link  text-capitalize" aria-current="page" href="#">contact</a>
+              </li>
+            </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <main class=" position-relative">
+        <section class=" first">
+        <div class=" container w-75">
+            <div class=" position-relative">
+                <input type="text" class="form-control py-3" placeholder="Find ur location" id="search">
+                <button class="my_btn text-white position-absolute" type="" id="find">Find</button>
+              </div>
+        </div>
+        </section>
+
+        <section class="forcast-table">
+            <div class=" container w-75 ">
+                <div class="row g-md-0 ">
+                    <!-- <div class="col-md-4 ">
+                        <div class="card rounded-3 h-100">
+                            <div class="px-2 header d-flex justify-content-between align-items-center py-2">
+                                <div class="day text-capitalize">
+                                    tuesday
+                                </div>
+                                <div class="date">
+                                    26Novermber
+                                </div>
+                            </div>
+                            <div class="card-body" id="current">
+                                <div class="location">
+                                    cairo international airport
+                                </div>
+                                <div class="degree text-white">
+                                    <div class="num">
+                                        18.4<sup>o</sup>c
+                                    </div>
+                                    <div class="forcast-icon">
+                                        <img src="./img/116.png" class=" w-25" alt="wither">
+                                    </div>
+                                </div>
+                                <div class="custom pb-4 text-info">
+                                    Partly cloudy
+                                </div>
+                                <span>
+                                    <img src="./img/icon-umberella@2x.png"  alt="">
+                                    20%
+                                </span>
+                                <span>
+                                    <img src="./img/icon-wind@2x.png" alt="">
+                                    18Km/h
+                                </span>
+                                <span>
+                                    <img src="./img/icon-compass@2x.png" alt="">
+                                    East
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card sec rounded-3 h-100">
+                            <div class="px-2 header text-center  py-2">
+                                <div class="day text-capitalize">
+                                    wednesday
+                                </div>
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="degree text-white">
+                                    <div class="forcast-icon w-25 m-auto pt-3">
+                                        <img src="./img/116.png" class=" w-50" alt="wither">
+                                    </div>
+                                    <div class="num fs-4 fw-medium pt-3">
+                                        21.3<sup>o</sup>c
+                                    </div>
+                                    <small class=" text-white-50">13<sup>o</sup></small>
+                                </div>
+                                <div class="custom pb-4 text-info mt-3">
+                                    Partly cloudy
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card rounded-3 h-100">
+                            <div class="px-2 header text-center  py-2">
+                                <div class="day text-capitalize">
+                                    thready
+                                </div>
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="degree text-white">
+                                    <div class="forcast-icon w-25 m-auto pt-3">
+                                        <img src="./img/116.png" class=" w-50" alt="wither">
+                                    </div>
+                                    <div class="num fs-3 fw-medium pt-3">
+                                        22<sup>o</sup>c
+                                    </div>
+                                    <small class=" text-white-50">14.4<sup>o</sup></small>
+                                </div>
+                                <div class="custom pb-4 text-info mt-3">
+                                    Partly cloudy
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class=" container w-75">
+            <div class="row">
+                <div class="col-md-8 pb-4">
+                    <div class=" position-relative">
+                        <input type="text" class="form-control py-3" placeholder="Enter your email to subscribe...">
+                        <button class="my_btn text-white position-absolute" type="submit">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-3 ps-5">
+                    <button type="button" class="btn btn-outline-primary rounded-5 "><i class="fa-brands fa-facebook-f"></i></button>
+                    <button type="button" class="btn btn-outline-primary rounded-5 "><i class="fa-brands fa-twitter"></i></button>
+                    <button type="button" class="btn btn-outline-primary rounded-5 "><i class="fa-brands fa-google-plus-g"></i></button>
+                    <button type="button" class="btn btn-outline-primary rounded-5 "><i class="fa-brands fa-pinterest"></i></button>
+                </div>
+            </div>
+            <p class=" text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+
+    <!-- js -->
+     <script src="./js/bootstrap.bundle.min.js"></script>
+     <script src="./js/index.js"></script>
+</body>
+</html>

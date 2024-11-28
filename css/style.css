@@ -1,0 +1,146 @@
+.img-width{
+    width: 64px;
+}
+
+.navbar{
+    background-color: #1E202B;
+}
+
+.text_logo h1{
+
+    color: white;
+}
+
+.text_logo small{
+    font-size: 0.7142857143em;
+    color: #bfc1c8;
+}
+
+.collapse .current .active{
+    color: #009ad8;
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+    padding: 5px 25px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+.nav-item .nav-link{
+    color: white;
+    padding: 5px 25px !important;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.nav-item .nav-link:hover{
+    color: #009ad8;
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+    /* padding: 5px 25px; */
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+/* ******************************************* */
+.first{
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position: no-repeat;
+    min-height: 350px;
+    padding: 70px 0;
+}
+
+.form-control{
+    background-color: #1e202b;
+    color: white;
+    border:none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.form-control:focus{
+    background-color:#1e202b ;
+    color: white !important;
+    box-shadow: none;
+}
+
+.form-control::placeholder{
+    color: rgba(255, 255, 255, 0.295);
+}
+
+.my_btn{
+    top:5px !important;
+    right: 5px;
+    bottom: 5px;
+    border: none;
+    background: #009ad8;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+}
+/* section */
+.forcast-table{
+    background-color: #1E202B;
+    min-height: 55vh;
+}
+
+.card{
+    background-color:#323544 ;
+    color: #BFC1C8;
+    
+}
+
+.card .header{
+    background-color: #2D303D;
+}
+
+.num{
+    font-size: 90px;
+}
+
+.card span{
+    margin: 0 5px 0 0;
+}
+
+.card span img{
+    width: 21px;
+}
+
+.sec{
+    background-color: #262936;
+}
+
+.sec .header{
+    background-color: #222530;
+}
+
+/* .pos-container{
+    margin-top: -150px;
+} */
+
+footer{
+    background: #262936;
+    padding: 50px 0;
+}
+
+.btn-outline-primary{
+    width: 40px;
+    height: 40px;
+    background-color: #1E202B;
+    border: none;
+    color: rgb(0, 154, 216);
+}
